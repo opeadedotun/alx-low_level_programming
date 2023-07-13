@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * Function main is the entry point
  *
