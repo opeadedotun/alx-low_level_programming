@@ -22,10 +22,14 @@ int main(void)
 				putchar('0' + j % 10);
 				putchar(',');
 				putchar(' ');
+
+				if (j == 99)
+				{
+					putchar('\n');
+				}
 			}
 		}
 	}
-	putchar('\n');
 
 	return (0);
 }
