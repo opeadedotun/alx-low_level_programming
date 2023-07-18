@@ -1,28 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 fibonaci sequences
- * Return: 0
-*/
-void printFibonacciSequence(int n) {
-    int a = 1, b = 2, next;
-    int count = 2;
+ * print_fibonacci_sequence - Generates and prints the Fibonacci sequence
+ * up to the given number.
+ * @n: The number of Fibonacci numbers to generate
+ */
+void print_fibonacci_sequence(int n)
+{
+	int a = 1, b = 2, next;
+	int count = 2;
 
-    printf("%d, %d", a, b);
+	printf("%d, %d", a, b);
 
-    while (count < n) {
-        next = a + b;
-        printf(", %d", next);
+	while (count < n)
+	{
+		next = a + b;
+		printf(", %d", next);
 
-        a = b;
-        b = next;
-        count++;
-    }
+		a = b;
+		b = next;
+		count++;
+	}
 }
 
-int main() {
-    printFibonacciSequence(98);
-    printf("\n");
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	print_fibonacci_sequence(98);
+	printf("\n");
 
-    return 0;
+	return (0);
 }
