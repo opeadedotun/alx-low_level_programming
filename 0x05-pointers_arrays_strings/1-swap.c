@@ -6,7 +6,6 @@
  *
  * @a: temporary variable1
  * @b: temporary vaiable2
- * @temp_num: temporary variable3
  *
  * Return: Always 0;
  */
