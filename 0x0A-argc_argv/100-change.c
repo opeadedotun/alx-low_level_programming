@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - function that prints the minimum number os coins
- * to make changes for an amount.
+ * main - function that prints the minimum number of coins
  * @argc: The supplied number
  * @argv: Arrays of pointers
+ *
+ * Return: If the number of arguments is not exactly 1 otherwise 0
  */
 int main(int argc, char *argv[])
 {
